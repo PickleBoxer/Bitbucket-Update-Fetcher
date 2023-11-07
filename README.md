@@ -2,6 +2,11 @@
 
 The `UpdateFetcher` class is responsible for fetching updates from Bitbucket. It maintains information about the latest version and updates not yet installed. It also uses caching to optimize update requests and a logger instance for logging purposes. The class uses several dependencies including Composer\Semver\Comparator, Desarrolla2\Cache\CacheInterface, Monolog\Logger, and others.
 
+## Installation
+
+- Install the library via composer pickleboxer/bitbucket-update-fetcher
+- Create an update file/method in your application with your update routine (see example/update/index.php)
+
 ## Usage
 
 To use the `UpdateFetcher` class, you need to instantiate it and then call the appropriate methods. Here's a step-by-step guide on how to use the UpdateFetcher class:
