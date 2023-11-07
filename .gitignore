@@ -328,3 +328,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/vim,emacs,linux,macos,vuejs,windows,composer,phpstorm,sublimetext,visualstudiocode
 *.log
 bitbucket.txt
+composer.lock

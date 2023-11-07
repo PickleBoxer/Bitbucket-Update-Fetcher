@@ -1,26 +1,26 @@
 {
-    "name": "pickleboxer/bitbucket-update-fetcher",
-    "description": "PHP update fetcher from BitBucket",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "BitbucketUpdateFetcher\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "PickleBoxer",
-            "email": "matic.vertacnik@icloud.com"
-        }
-    ],
-    "require": {
-        "ext-json": "*",
-        "ext-curl": "*",
-        "ext-zip": "*",
-        "php": ">=7.4.0",
-        "composer/semver": "^3.4",
-        "monolog/monolog": "^3.5",
-        "psr/log": "^3.0",
-        "desarrolla2/cache": "^3.0"
+  "name": "pickleboxer/bitbucket-update-fetcher",
+  "description": "PHP update fetcher from BitBucket",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BitbucketUpdateFetcher\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "PickleBoxer",
+      "email": "matic.vertacnik@icloud.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-zip": "*",
+    "php": ">=7.2.0",
+    "desarrolla2/cache": "^3.0",
+    "monolog/monolog": "^2.1",
+    "composer/semver": "^3.0",
+    "psr/log": "1.1.4"
+  }
 }
